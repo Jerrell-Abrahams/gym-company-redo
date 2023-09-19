@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>Gym Company</title>
+    <link rel="icon" type="image/x-icon" href="../images/barbell.png">
+    <script defer src="../javascript/index.js"></script>
+</head>
+<body>
+    
+    
+
+    <section class="main_page">
+        <nav>
+            <div class="navbar">
+                <a href="/"><img loading="lazy" class="logo" src="../images/gym_inverted-removebg.png"></a>
+                <div class="links">
+                    <a href="#gyms">GYMS</a>
+                    <a href="#memberships">MEMBERSHIPS</a>
+                    <a href="#contact-us">CONTACT US</a>
+                    <a href="/group_fitness">GROUP FITNESS</a>
+                    <a href="/spa">SPA</a>
+
+                </div>
+                <div class="burger_button">
+                    <ion-icon class="burger_button_icon" name="menu-outline"></ion-icon>
+                </div>
+            </div>
+        </nav>
+        <div class="hamburger invisible">
+                <div class="burger_links">
+                <a href="#gyms">GYMS</a>
+                    <a href="#memberships">MEMBERSHIPS</a>
+                    <a href="#contact-us">CONTACT US</a>
+                    <a href="/group_fitness">GROUP FITNESS</a>
+                    <a href="">CAREERS</a>
+                    <a href="/spa">SPA</a>
+                </div>
+        </div>
+        <div class="heading_container">
+        <h1 class="heading hidden">Train harder than last time!</h1>
+        <h2 class="sub_heading hidden delay">Invest in yourself, like we do</h2>
+        <div class="buttons">
+            <a href="/join"><button class="joinBtn">Join</button></a>
+            <a href="mailto:support@gymcompany.co.za" title="Email support"><button class="assistBtn">Request assistance</button></a>
+        </div>
+    </div>
+    </section>
+
+    <section class="rewards" id="rewards">
+        <div class="banner_container">
+            <img loading="lazy" class="banner" src="../images/gym4free.png" loading="lazy" alt="Gym4Free Image">
+        </div>
+        <div>
+            <h1 class="rewards_heading"></h1>
+        </div>
+        <div class="card_container">
+        <div class="card hidden">
+            <ion-icon name="people-outline"></ion-icon>
+            <h1>Refer Your Friends</h1>
+            <p>Get 1 month's FREE gym for every refferral that joins Gym Company</p>
+        </div>
+
+        <div class="card hidden">
+            <ion-icon name="scan-outline"></ion-icon>
+            <h1>Scan Your Till Slips</h1>
+            <p>Get cashback on products from the gym4free retail benefit partners</p>
+        </div>
+
+        <div class="card hidden">
+            <ion-icon name="barbell-outline"></ion-icon>
+            <h1>Free Online Workouts</h1>
+            <p>Online workouts conveniently abailable via our gym4free app
+            </p>
+        </div>
+        <div class="card hidden">
+            <ion-icon name="shirt-outline"></ion-icon>
+            <h1>Gym Company Apparel</h1>
+            <p>Get up to 20% cashback on Gym Company apparel.
+            </p>
+        </div>
+        <div class="card hidden">
+            <ion-icon name="call-outline"></ion-icon>
+            <h1>For Buying Airtime</h1>
+            <p>Earn cashback on aritime top-ups for you, friends, & family
+            </p>
+        </div>
+            </div>
+
+    </section>
+
+    <section class="pricing" id="memberships">
+        <h1 class="pricing_title">Pricing Table</h1>
+        <div class="pricing_container">
+            
+            <div class="pricing_card white_card slideOut" name="price_card">
+                <h2>WHITE CARD</h2>
+                <h1 class="price">R199</h1>
+                <h2>A MONTH</h2>
+                <ul>
+                    <li>FULL ACCESS TO 1 GYM</li>
+                    <li>NO TIME RESTRICTIONS</li>
+                    <li>FIXED PRICE</li>
+                    <li>FREEZE UP TO 3 MONTHS</li>
+                    <li>TRANSFERABLE TO ANOTHER PERSON</li>
+                </ul>
+                <a href="/join"><button class="pricing_button white_button">Register Now</button></a>
+            </div>
+            <div class="pricing_card black_card slideOut" name="price_card">
+                <h2>BLACK CARD</h2>
+                <h1 class="price">R299</h1>
+                <h2>A MONTH</h2>
+                <ul>
+                    <li>FULL ACCESS TO ALL GYMS & GROUP PERSONAL TRAINING</li>
+                    <li>NO TIME RESTRICTIONS</li>
+                    <li>FIXED PRICE</li>
+                    <li>FREEZE UP TO 3 MONTHS</li>
+                    <li>TRANSFERABLE TO ANOTHER PERSON</li>
+                    <li>GUEST PRIVILEGES (Bring different guests every day for free)</li>
+                    <li>5 FREE MEMBERSHIP VOUCHERS (For different friends and family members)</li>
+                </ul>
+                <a href="/join"><button class="pricing_button black_button">Register now</button></a>
+            </div>
+            <div class="pricing_card platinum_card slideOut" name="price_card">
+                <h2>PLATINUM CARD</h2>
+                <h1 class="price">R399</h1>
+                <h2>A MONTH</h2>
+                <ul>
+                    <li>FULL ACCESS TO ALL GYMS & GROUP PERSONAL TRAINING & SPA</li>
+                    <li>NO TIME RESTRICTIONS</li>
+                    <li>FIXED PRICE</li>
+                    <li>FREEZE UP TO 3 MONTHS</li>
+                    <li>TRANSFERABLE TO ANOTHER PERSON</li>
+                    <li>GUEST PRIVILEGES (Bring different guests every day for free)</li>
+                    <li>5 FREE MEMBERSHIP VOUCHERS (For different friends and family members)</li>
+                </ul>
+                <a href="/join"><button class="pricing_button platinum_button">Register now</button></a>
+            </div>
+        </div>
+
+
+    </section>
+    <% for( let index = 0; index < locations.length; index++ ) { %>
+    
+    <dialog data-modal class=" <%= locations[index].name.split(" ").join("_") %> modal">
+        <div class="content_container">
+            <div>
+                <ion-icon class="modal_close_button close" name="close-outline"></ion-icon>
+            </div>
+            <div class="content">
+                <div>
+                    <h1 class="modal_title"><%= locations[index].name %></h1>
+                    <p class="location"><%= locations[index].address %></p>
+                </div>
+                <div>
+                    <p class="contact_details">PHONE: <span title="Phone Gym" style="color:rgb(50, 93, 172)"><%= locations[index].phone %></span> | MANAGER:  <a class="email" title="Email Manager" href="mailto:jerrellabrahams50@gmail.com" style="color:rgb(50, 93, 172);"><%= locations[index].manager_name %></a></p>
+                
+                
+                </div>
+                <div class="gallery_container invisible">
+                    <% for( let pic = 0; pic < locations[index].gallery.length; pic++) { %>
+                        <img loading="lazy" class="gallery_images" src="<%= locations[index].gallery[pic] %>">
+                    <% } %>
+                </div>
+                
+                <div class="video_section invisible">
+                    <%- locations[index].video %>
+                </div>
+
+
+                <div class="times_section">
+                    <div>
+                        <table>
+                            <tr>
+                                <td>MON-THU</td>
+                                <td><span class="opening_time">05:00 AM</span> - <span class="closing_time">09:00 PM</span></td>
+                            </tr>
+                            <tr>
+                                <td>FRI</td>
+                                <td><span class="opening_time">05:00 AM</span> - <span class="closing_time">08:00 PM</span></td>
+                            </tr>
+                            <tr>
+                                <td>SAT</td>
+                                <td><span class="opening_time">07:00 AM</span> - <span class="closing_time">07:00 PM</span></td>
+                            </tr>
+                            <tr>
+                                <td>SUN</td>
+                                <td><span class="opening_time">08:00 AM</span> - <span class="closing_time">05:00 PM</span></td>
+                            </tr>
+                            <tr>
+                                <td>HOLIDAYS</td>
+                                <td>TO BE ADVISED</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="facilities">
+                        <h4>FACILITIES:</h4>
+                        <p>Cardio Zone | Weight Training Zone | Group Fitness Studio | Indoor Cycling Studio | Platinum Group Personal Training Zones | Platinum Spa* | Stretching Zone | Gym Kids (Kids Play Zone) | Change Rooms with Lockers | Saunas | Super Circuit</p>
+                    </div>
+                </div>
+                
+
+                <div class="icons_container">
+                    <div class="center_icons times invisible">
+                        <ion-icon class="icons" title="Times/Facilities" name="time"></ion-icon>
+                        <p>Times/Facilities</p>
+                    </div>
+                    <div class="center_icons gallery">
+                        <ion-icon class="icons" title="Gallery" name="images"></ion-icon>
+                        <p>Gallery</p>
+                    </div>
+                    <a class="map_link" href="<%= locations[index].map %>"><div class="center_icons map">
+                        <ion-icon class="icons" title="Map" name="locate"></ion-icon>
+                        <p>Map</p>
+                    </div></a>
+                    <div class="center_icons video">
+                        <ion-icon class="icons" title="Video Tour" name="videocam"></ion-icon>
+                        <p>Video Tour</p>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </dialog>
+    <% } %>
+        <section class="our_gyms" id="gyms">
+        <div class="our_gyms_head">
+            <h1 class="slideOut">OUR GYMS</h1>
+            <h3 class="our_gyms_subheading slideOut">22 SA Gyms to choose from.</h3>
+        </div>
+        <div class="loci">
+
+
+
+            <h1>Locations in South Africa</h1>
+            <p><strong>Established in 1997, GYM COMPANY is a 100% South African owned and operated company.</strong> We endeavour to provide personal service in world class facilities at unbelievably affordable prices. There are no fashion parades just excellent facilities, service and results in our friendly gyms.
+                On joining our personal trainers will provide you with a Quick Start assessment which includes a gym program and a healthy eating plan as well as taking you through your program ensuring that you get great results. Our gyms are open 7 days a week for your convenience.
+            </p>
+
+                <div class="locations_container">
+                    <% for( let index = 0; index < locations.length; index++ ) { %>
+                    <div class="row">
+                        <div data-open-modal class="column hidden">
+                        <%= locations[index].name %>
+                        </div>
+                    
+                        <% } %>
+<!-- 
+                                <div class="row">
+                    <div data-open-modal class="column hidden">DURBAN MUSGRAVE CENTRE</div>
+                    <div data-open-modal class="column hidden">JOHANNESBURG RANDBURG (BROMHOF)</div>
+                                </div>
+                                <div class="row">
+                    <div data-open-modal class="column hidden">DURBAN PINETOWN</div>
+                    <div data-open-modal class="column hidden">JOHANNESBURG RANDBURG SQUARE</div>
+                                </div>
+                                <div class="row">
+                    <div data-open-modal class="column hidden">DURBAN UMLAZI MEGA CITY</div>
+                    <div data-open-modal class="column hidden">JOHANNESBURG ROODEPOORT</div>
+                                </div>
+                                <div class="row">
+                    <div data-open-modal class="column hidden">JOHANNESBURG ALBERTON</div>
+                    <div data-open-modal class="column hidden">JOHANNESBURG WESTGATE SHOPPING CENTRE</div>
+                                </div>
+                                <div class="row">
+                    <div data-open-modal class="column hidden">JOHANNESBURG BARAGWANATH</div>
+                    <div data-open-modal class="column hidden">JOHANNESBURG WINCHESTER HILLS</div>
+                                </div>
+                                <div class="row">
+                    <div data-open-modal class="column hidden">JOHANNESBURG DOORNFONTEIN</div>
+                    <div data-open-modal class="column hidden">PRETORIA ATTERIDGEVILLE</div>
+                                </div>
+                                <div class="row">
+                    <div data-open-modal class="column hidden">JOHANNESBURG EAST RAND MALL</div>
+                    <div data-open-modal class="column hidden">PRETORIA BLOED STREET MALL</div>
+                                </div> -->
+                
+        </div>
+    </section>
+
+    <section class="contact_us" id="contact-us">
+        <div class="contact_div">
+            <div class="center_contact_div">
+            <h1>CONTACT US</h1>
+                <div class="contact_buttons">
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><button>Email Us</button></a>
+                <button>Call Us</button>
+            </div>
+                <div class="footer">
+                    <p>Copyright Gym Company. All rights reserved. E&OE.</p>
+
+                    <p>Web App by: <a  style="text-decoration: none; color: rgb(194, 135, 25)" href="https://jerrellabrahams.tech" target="_blank">Jerrell Abrahams</a></p>
+                </div>
+                <div class="links_container">
+                    <p class="links"><a href="#gyms">Gyms</a> | <a href="#memberships">Memberships</a> | <a href="/join">Join</a> | <a href="/group_fitness">Group Fitness</a> | <a href="/spa">Spa</a> | <a href="#contact-us">Contact Us</a></p>
+                </div>
+        </div>
+    </div>
+        
+    </section> 
+
+    <script loading="lazy" type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script loading="lazy" nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

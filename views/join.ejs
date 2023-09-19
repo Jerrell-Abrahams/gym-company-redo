@@ -1,0 +1,53 @@
+<%- include("partials/header", {title: "Join Now"}) %>
+<body>
+
+<section class="join_page">
+<div class="container">
+    <div class="left_box">
+        
+    </div>
+<div class="right_box">
+    <div class="center_container">
+    <h1 class="join_header">Join Now!</h1>
+</div>
+    <form class="action" action="/join" method="post">
+        <div class="inline_form">
+
+            <select name="gym" >
+                <option value="">Select A Gym</option>
+                <option value="BOKSBURG">BOKSBURG</option>
+                <option value="ROODEPOORT">ROODEPOORT</option>
+                <option value="EAST RAND">EAST RAND</option>
+                <option value="BRAKPAN">BRAKPAN</option>
+                <option value="PINEWOOD">PINEWOOD</option>
+                <option value="PINEWOOD">PINEWOOD</option>
+                <option value="NEW TOWN">NEW TOWN</option>
+                <option value="WINCHESTER">WINCHESTER</option>        
+            </select>
+
+            <input type="text" name="fname" placeholder="First Name">
+        
+
+            <input type="text" name="lname" placeholder="Last Name">
+        
+
+            <input type="text" name="email" placeholder="Email">
+
+
+            <input type="text" name="number" placeholder="Mobile Number">
+
+ 
+            <input type="text" name="id" placeholder="ID Number">
+        </div>
+
+        <div class="center_container">
+            <button name="submit_button"type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+</div>
+</section>
+<%- include("partials/footer.ejs") %>
+
+</body>
+</html>
